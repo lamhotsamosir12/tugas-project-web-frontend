@@ -1,0 +1,29 @@
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  div {
+    cursor: pointer;
+  }
+
+  .eye,
+  .trash,
+  .pen {
+    height: 20px;
+    width: 20px;
+  }
+
+  .eye {
+    color: #2578fc;
+  }
+
+  .pen {
+    color: #ffbe01;
+  }
+
+  .trash {
+    color: #f43a2d;
+  }
+}

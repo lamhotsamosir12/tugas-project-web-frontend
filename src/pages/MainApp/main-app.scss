@@ -1,0 +1,10 @@
+.main-app {
+  width: 100vw;
+  .content {
+    width: calc(100vw - 88px);
+    margin: 32px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

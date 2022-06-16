@@ -1,0 +1,18 @@
+.tombol {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  background-color: #188754;
+  border-radius: 4px;
+  gap: 4px;
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+  .text {
+    font-size: 16px;
+    color: #fff;
+  }
+}
